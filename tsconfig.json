@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "target": "ES2022",
+    "lib": ["ES2020", "DOM"],
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "outDir": "./scripts",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}

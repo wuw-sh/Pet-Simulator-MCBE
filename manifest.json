@@ -1,0 +1,59 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": [
+      "wuw.sh"
+    ],
+    "url": "https://github.com/wuw-sh",
+    "license": "MIT"
+  },
+  "header": {
+    "name": "Pet Simulator (Be)",
+    "description": "By §b@§ewuw.sh",
+    "min_engine_version": [
+      1,
+      19,
+      80
+    ],
+    "uuid": "e0749d46-5d88-4672-8464-6a892086fc21",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "description": "Data",
+      "uuid": "1754ebf1-5a05-4b76-a37e-d1aff4de75dc",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "description": "@minecraft/server | @minecraft/server-ui",
+      "language": "javascript",
+      "uuid": "b2678262-d0a7-4473-bc14-f6c4ec17afb7",
+      "entry": "scripts/server/index.js",
+      "version": [
+        1,
+        2,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.2.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.0.0-beta"
+    }
+  ]
+}
